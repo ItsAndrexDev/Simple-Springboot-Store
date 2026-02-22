@@ -22,6 +22,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("org.springframework.boot:spring-boot-starter-webservices")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    runtimeOnly("com.mysql:mysql-connector-j")
+
+
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }

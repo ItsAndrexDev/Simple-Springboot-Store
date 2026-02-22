@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotNull;
 public class OrderPlacement {
 
     @NotNull
-    private Integer orderId;      // Use wrapper class, not primitive
+    private Integer productId;      // Use wrapper class, not primitive
     @NotNull
     private Integer quantity;
 
@@ -17,8 +17,8 @@ public class OrderPlacement {
     private Integer amount;
 
     // Getters and setters required for @ModelAttribute binding
-    public Integer getOrderId() { return orderId; }
-    public void setOrderId(Integer orderId) { this.orderId = orderId; }
+    public Integer getProductId() { return productId; }
+    public void setProductId(Integer productId) { this.productId = productId; }
 
     public Integer getQuantity() { return quantity; }
     public void setQuantity(Integer quantity) { this.quantity = quantity; }
